@@ -100,7 +100,7 @@ const db = {
     },
     "5.0005": {
       "name": "SvSSAO.x",
-      "remark": "-",
+      "remark": "SvSSAOの紹介動画が見つからないので他のエフェクトの紹介動画sm15369179で代用",
       "creator": "そぼろ",
       "nico": "sm15369179",
       "page": "[MMD/Effects/SvSSAO.zip](https://onedrive.live.com/?id=EF581C37A4524EDA%21108&cid=EF581C37A4524EDA)"
