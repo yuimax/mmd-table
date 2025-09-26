@@ -75,7 +75,7 @@ const db = {
       "remark": "-",
       "creator": "Elle/データP",
       "nico": "sm14067112",
-      "page": "[Elle/データPのデータポートⅡ](https://ux.getuploader.com/Elle_DataPort/)"
+      "page": "[Elle/データPのデータポートⅡ](https://uu.getuploader.com/Elle_DataPort/download/9)"
     },
     "5.0002": {
       "name": "o_full-AlphaTest.fx",
@@ -102,7 +102,7 @@ const db = {
       "name": "SvSSAO.x",
       "remark": "-",
       "creator": "そぼろ",
-      "nico": "-",
+      "nico": "sm15369179",
       "page": "[MMD/Effects/SvSSAO.zip](https://onedrive.live.com/?id=EF581C37A4524EDA%21108&cid=EF581C37A4524EDA)"
     },
     "5.0006": {
@@ -330,6 +330,10 @@ const db = {
     {
       "blog": 104,
       "id": "5.0001"
+    },
+    {
+      "blog": 104,
+      "id": "5.0005"
     },
     {
       "blog": 104,

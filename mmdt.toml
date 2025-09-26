@@ -94,7 +94,7 @@ name	= "AdultShader.fx"
 remark	= "-"
 creator	= "Elle/データP"
 nico	= "sm14067112"
-page	= "[Elle/データPのデータポートⅡ](https://ux.getuploader.com/Elle_DataPort/)"
+page	= "[Elle/データPのデータポートⅡ](https://uu.getuploader.com/Elle_DataPort/download/9)"
 
 [[item]]
 id	 	= "5.0002"	# o_full-AlphaTest.fx
@@ -125,7 +125,7 @@ id	 	= "5.0005"	# SvSSAO.x
 name	= "SvSSAO.x"
 remark	= "-"
 creator	= "そぼろ"
-nico	= "-"
+nico	= "sm15369179"	# SvSSAOの紹介動画が見つからないので他のエフェクトの紹介動画で代用
 page	= "[MMD/Effects/SvSSAO.zip](https://onedrive.live.com/?id=EF581C37A4524EDA%21108&cid=EF581C37A4524EDA)"
 
 [[item]]
@@ -390,6 +390,10 @@ id	 	= "4.0001"	# コウモリパーティクル
 [[use]]
 blog	= 104
 id	 	= "5.0001"	# AdultShader.fx
+
+[[use]]
+blog	= 104
+id	 	= "5.0005"	# AdultShader.fx
 
 [[use]]
 blog	= 104
