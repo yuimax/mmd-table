@@ -58,7 +58,7 @@ const db = {
     },
     "4.0001": {
       "name": "コウモリパーティクル",
-      "remark": "コウモリ(大)",
+      "remark": "-",
       "creator": "山田淀子",
       "nico": "sm39375203",
       "page": "bowlroll/262776"
@@ -79,13 +79,13 @@ const db = {
     },
     "5.0002": {
       "name": "o_full-AlphaTest.fx",
-      "remark": "o_SurplusFilter",
+      "remark": "o_SurplusFilter に含まれる",
       "creator": "おたもん",
       "nico": "im3131306",
       "page": "[MMD関連ファイル置き場](https://okoneya.jp/mmd_files/#o_SurplusFilter)"
     },
     "5.0003": {
-      "name": "Colo.fx",
+      "name": "Color.fx",
       "remark": "BoardSelfBurning",
       "creator": "針金P",
       "nico": "sm14067112",

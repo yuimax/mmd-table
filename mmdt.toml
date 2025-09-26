@@ -73,7 +73,7 @@ page	= "bowlroll/97078"
 [[item]]
 id	 	= "4.0001"	# コウモリパーティクル
 name	= "コウモリパーティクル"
-remark	= "コウモリ(大)"
+remark	= "-"
 creator	= "山田淀子"
 nico	= "sm39375203"
 page	= "bowlroll/262776"
@@ -99,14 +99,14 @@ page	= "[Elle/データPのデータポートⅡ](https://uu.getuploader.com/Ell
 [[item]]
 id	 	= "5.0002"	# o_full-AlphaTest.fx
 name	= "o_full-AlphaTest.fx"
-remark	= "o_SurplusFilter"
+remark	= "o_SurplusFilter に含まれる"
 creator	= "おたもん"
 nico	= "im3131306"
 page	= "[MMD関連ファイル置き場](https://okoneya.jp/mmd_files/#o_SurplusFilter)"
 
 [[item]]
 id	 	= "5.0003"	# Color.fx
-name	= "Colo.fx"
+name	= "Color.fx"
 remark	= "BoardSelfBurning"
 creator	= "針金P"
 nico	= "sm14067112"
