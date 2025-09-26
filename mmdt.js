@@ -86,7 +86,7 @@ const db = {
     },
     "5.0003": {
       "name": "Color.fx",
-      "remark": "BoardSelfBurning",
+      "remark": "HariganeEffectUpdatePack20130711.zip に含まれる",
       "creator": "針金P",
       "nico": "sm14067112",
       "page": "[針金のブログ/Color v0.0.3](https://hariganep.seesaa.net/article/201203article_1.html)"
