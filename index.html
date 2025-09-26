@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>お借りしたもの</title>
+    <style>
+    body {
+      margin: 8px;
+      padding: 0;
+    }
+
+    h1, h2, p {
+      margin: 8px 16px; /* 上下、左右 */
+    }
+
+    table {
+      margin: 8px 16px 16px 16px;
+      padding: 4px;
+      border-collapse: collapse;
+      line-height: 150%;
+	  font-size: 10pt;
+      white-space: nowrap;
+    }
+
+    th {
+      background: #f0f0f0;
+      border: 1px solid gray;
+      padding: 4px 8px;
+      text-align: left;
+    }
+
+    td {
+      background: #ffffff;
+      border: 1px solid gray;
+      padding: 2px 8px;
+    }
+	
+    </style>
+</head>
+<body>
+	<h2>●お借りしたもの</h2>
+	<script src="mmdt.js"></script>
+	<script>
+		function get_blog_link(n) {
+			const title = n.toString().padStart(3, '0');
+			return `<a href="https://acax.blog.fc2.com/e/${n}">#${title}</a>`;
+		}
+
+		const categories = {
+			'1': 'モデル',
+			'2': 'ステージ',
+			'3': 'スカイドーム',
+			'4': 'アクセサリ',
+			'5': 'エフェクト',
+			'6': '衣装',
+			'A': '楽曲',
+			'B': '振付',
+			'C': 'モーション',
+			'D': 'リップ',
+			'E': '表情',
+			'F': 'リップ表情',
+			'G': 'カメラ',
+		};
+
+		function get_category(id) {
+			const ch = id.charAt(0).toUpperCase();
+			if (ch in categories)
+				return categories[ch];
+			else
+				return `[${ch}]`;
+		}
+
+		const re_nicoid = /^\w{2}\d+/;
+
+		function get_nico_link(s) {
+			if (re_nicoid.test(s))
+				return `<a href="https://nico.ms/${s}">${s}</a>`;
+			else
+				return '-';
+		}
+		
+		const re_xcom = /^x.com\/(.*)\/(.*)/i;
+		const re_bowlroll = /^bowlroll\/(\d+)/i;
+		const re_markdown = /^\[(.*?)\]\((.*)\)/;
+		const re_booth = /^booth\/(.*)\/(.*)/i;
+		const re_youtube = /^youtube\/(.*)/i;
+
+		function get_page_link(s) {
+			if (re_xcom.test(s))
+				return s.replace(re_xcom, '<a href="https://x.com/$1/status/$2">x.com@$1</a>');
+			else if (re_bowlroll.test(s))
+				return s.replace(re_bowlroll, '<a href="https://bowlroll.net/file/$1">BowlRoll/$1</a>');
+			else if (re_markdown.test(s))
+				return s.replace(re_markdown, '<a href="$2">$1</a>');
+			else if (re_booth.test(s))
+				return s.replace(re_booth, '<a href="https://$1.booth.pm/items/$2">Booth/$1/$2</a>');
+			else if (re_youtube.test(s))
+				return s.replace(re_youtube, '<a href="https://www.youtube.com/watch?v=$1">youtube/$1</a>');
+			else
+				return s;
+		}
+
+		document.write(`
+			<div style="overflow-x: auto; margin-bottom: 16px;">
+			<table class="mmdt">
+		`);
+
+		let lastBlog = -1;
+		for (const use of db.use) {
+			if (use.blog != lastBlog) {
+				document.write(`
+					<tr>
+					<th>blog</th>
+					<th>creator</th>
+					<th>category</th>
+					<th>name</th>
+					<th>nico ID</th>
+					<th>see also</th>
+					</tr>
+				`);
+				lastBlog = use.blog;
+			}
+			const item = db.item[use.id];
+			document.write(`
+				<tr>
+				<td>${get_blog_link(use.blog)}</td>
+				<td>${item.creator}</td>
+				<td>${get_category(use.id)}</td>
+				<td>${item.name}</td>
+				<td>${get_nico_link(item.nico)}</td>
+				<td>${get_page_link(item.page)}</td>
+				</tr>
+			`);		
+		}
+
+		document.write(`
+			</table>
+			</div>
+		`);		
+
+		function copyHtml() {
+			const table = document.querySelector('table.mmdt');
+			const html = table.outerHTML.split(/\n/).map(s => s.trim()).join('\n') + '\n';
+			navigator.clipboard.writeText(html)
+				.then(() => {
+					alert("HTMLをクリップボードにコピーしました");
+				})
+				.catch(err => {
+					alert("エラー発生： " + err);
+				});      
+		}
+	</script>
+	<p><button id="copy" type="button" onclick="copyHtml();">テーブルの HTML をコピーする</button></p>
+	<p>ブログに戻る： <a href="https://acax.blog.fc2.com/e/107">https://acax.blog.fc2.com/e/107</a></p>
+	<p>データを管理： <a href="https://github.com/yuimax/mmd-table">https://github.com/yuimax/mmd-table</a></p>
+</body>
+</html>

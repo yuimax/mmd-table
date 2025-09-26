@@ -1,0 +1,412 @@
+# 1.xxxx = モデル ######################
+
+[[item]]
+id	 	= "1.0001"	# ふっこ
+name	= "ふっこ"
+remark	= "-"
+creator	= "BCD (--)"
+nico	= "sm30453730"
+page	= "x.com/BCD13342111/1400429706491555841"
+
+[[item]]
+id	 	= "1.0002"	# うに式 試1.66
+name	= "うに式 試1.66"
+remark	= "-"
+creator	= "うに"
+nico	= "sm33477899"
+page	= "bowlroll/170989"
+
+[[item]]
+id      = "1.0003"	# VRoid A子
+name	= "VRoid A子"
+remark	= "-"
+creator	= "yuima"
+nico	= "td95636"
+page	= "bowlroll/266800"
+
+[[item]]
+id	 	= "1.0004"	# FRoid F子
+name	= "VRoid F子"
+remark	= "-"
+creator	= "yuima"
+nico	= "td95636"
+page	= "bowlroll/320277"
+
+# 2.xxxx = ステージ ####################
+
+[[item]]
+id	 	= "2.0001"	# 絵画の洋館 廃墟版
+name	= "絵画の洋館 廃墟版"
+remark	= "-"
+creator	= "NOB"
+nico	= "im10674575"
+page	= "[NOB's files](https://madaopnob.wixsite.com/files)"
+
+[[item]]
+id	 	= "2.0002"	# ムムム草原
+name	= "草原"
+remark	= "-"
+creator	= "ムムム"
+nico	= "im11255220"
+page	= "bowlroll/305634"
+
+[[item]]
+id	 	= "2.0003"	# ストーンヘンジ
+name	= "ストーンヘンジ"
+remark	= "-"
+creator	= "ばんぞく"
+nico	= "im11156311"
+page	= "bowlroll/297458"
+
+# 3.xxxx = スカイドーム ################
+
+[[item]]
+id	 	= "3.0001"	# 桜の公園 NN8
+name	= "桜の公園 NN8"
+remark	= "-"
+creator	= "怪獣対若大将P"
+nico	= "im5653835"
+page	= "bowlroll/97078"
+
+# 4.xxxx = アクセサリ ##################
+
+[[item]]
+id	 	= "4.0001"	# コウモリパーティクル
+name	= "コウモリパーティクル"
+remark	= "コウモリ(大)"
+creator	= "山田淀子"
+nico	= "sm39375203"
+page	= "bowlroll/262776"
+
+[[item]]
+id	 	= "4.0002"	# ふかふか草むら
+name	= "ふかふか草むら"
+remark	= "-"
+creator	= "ビームマンP"
+nico	= "sm18156849"
+page	= "[ビームマンのエフェクト置き場](https://w.atwiki.jp/beamman/)"
+
+# 5.xxxx = エフェクト ##################
+
+[[item]]
+id	 	= "5.0001"	# AdultShader.fx
+name	= "AdultShader.fx"
+remark	= "-"
+creator	= "Elle/データP"
+nico	= "sm14067112"
+page	= "[Elle/データPのデータポートⅡ](https://ux.getuploader.com/Elle_DataPort/)"
+
+[[item]]
+id	 	= "5.0002"	# o_full-AlphaTest.fx
+name	= "o_full-AlphaTest.fx"
+remark	= "o_SurplusFilter"
+creator	= "おたもん"
+nico	= "im3131306"
+page	= "[MMD関連ファイル置き場](https://okoneya.jp/mmd_files/#o_SurplusFilter)"
+
+[[item]]
+id	 	= "5.0003"	# Color.fx
+name	= "Colo.fx"
+remark	= "BoardSelfBurning"
+creator	= "針金P"
+nico	= "sm14067112"
+page	= "[針金のブログ/Color v0.0.3](https://hariganep.seesaa.net/article/201203article_1.html)"
+
+[[item]]
+id	 	= "5.0004"	# KiraKira_Z
+name	= "KiraKira_Z"
+remark	= "o_SurplusFilter"
+creator	= "ビームマンP"
+nico	= "sm26425576"
+page	= "[ビームマンのエフェクト置き場](https://w.atwiki.jp/beamman/)"
+
+[[item]]
+id	 	= "5.0005"	# SvSSAO.x
+name	= "SvSSAO.x"
+remark	= "-"
+creator	= "そぼろ"
+nico	= "-"
+page	= "[MMD/Effects/SvSSAO.zip](https://onedrive.live.com/?id=EF581C37A4524EDA%21108&cid=EF581C37A4524EDA)"
+
+[[item]]
+id	 	= "5.0006"	# KiraKira_Z_LE 改変 sakura
+name	= "KiraKira_Z_LE<br>改変 sakura"
+remark	= "-"
+creator	= "さくや"
+nico	= "-"
+page	= "bowlroll/100747"
+
+# 6.xxxx = 衣装 ########################
+
+[[item]]
+id	 	= "6.0001"	# ヨガウェアー
+name	= "ヨガウェアー"
+remark	= "-"
+creator	= "Tovie"
+nico	= "-"
+page	= "booth/tovie/5844504"
+
+#############################################
+# A.xxxx = 楽曲
+# B.xxxx = 振付
+# C.xxxx = モーション
+# D.xxxx = リップ
+# E.xxxx = 表情
+# F.xxxx = リップ表情
+# G.xxxx = カメラ
+
+# 楽曲 唱 ###################################
+
+[[item]]
+id	 	= "A.0001"	# 楽曲 唱
+name	= "唱"
+remark	= "-"
+creator	= "作曲：Giga / TeddyLoid<br>作詞：トップハムハット狂<br>歌唱：Ado"
+nico	= "sm42896186"
+page	= "-"
+
+[[item]]
+id	 	= "B.0001"	# 振付 唱
+name	= "唱"
+remark	= "-"
+creator	= "ぽるし"
+nico	= "sm42828338"
+page	= "-"
+
+[[item]]
+id	 	= "C.0001"	# モーション 唱
+name	= "唱"
+remark	= "-"
+creator	= "づなうじ"
+nico	= "sm43896215"
+page	= "bowlroll/321725"
+
+[[item]]
+id	 	= "F.0001"	# リップ表情 唱
+name	= "唱"
+remark	= "-"
+creator	= "ノン"
+nico	= "im9231038"
+page	= "モーションに同梱"
+
+[[item]]
+id	 	= "G.0001"	# カメラ 唱
+name	= "唱"
+remark	= "-"
+creator	= "木村まこと"
+nico	= "sm43918621"
+page	= "bowlroll/322359"
+
+# 楽曲 ハローセカイ #########################
+
+[[item]]
+id	 	= "A.0002"	# 楽曲 ハローセカイ
+name	= "ハローセカイ"
+remark	= "-"
+creator	= "DECO*27"
+nico	= "sm44594615"
+page	= "-"
+
+[[item]]
+id	 	= "B.0002"	# 振付 ハローセカイ
+name	= "ハローセカイ"
+remark	= "-"
+creator	= "おもち"
+nico	= "sm44732070"
+page	= "-"
+
+[[item]]
+id	 	= "C.0002"	# モーション ハローセカイ
+name	= "ハローセカイ"
+remark	= "-"
+creator	= "づなうじ"
+nico	= "sm44903242"
+page	= "bowlroll/321725"
+
+[[item]]
+id	 	= "F.0002"	# リップ表情 ハローセカイ
+name	= "ハローセカイ"
+remark	= "-"
+creator	= "ノン"
+nico	= "im9231038"
+page	= "モーションに同梱"
+
+[[item]]
+id	 	= "G.0002"	# カメラ ハローセカイ
+name	= "ハローセカイ"
+remark	= "-"
+creator	= "yuima"
+nico	= "sm44908561"
+page	= "bowlroll/335048"
+
+# 楽曲 Din Don Dan ##########################
+
+[[item]]
+id	 	= "A.0003"	# 楽曲 Din Don Dan
+name	= "Din Don Dan"
+remark	= "-"
+creator	= "Mayumi Morinaga"
+nico	= "-"
+page	= "youtube/9BEzsuUuedA"
+
+[[item]]
+id	 	= "B.0003"	# 振付 Din Don Dan
+name	= "Din Don Dan"
+remark	= "-"
+creator	= "Dai."
+nico	= "-"
+page	= "x.com/auridy/674527442426572800"
+
+[[item]]
+id	 	= "C.0003"	# モーション Din Don Dan
+name	= "Din Don Dan"
+remark	= "-"
+creator	= "ぴよ"
+nico	= "sm31003897"
+page	= "bowlroll/133412"
+
+[[item]]
+id	 	= "G.0003"	# カメラ Din Don Dan
+name	= "Din Don Dan"
+remark	= "-"
+creator	= "NOMBIRI-YA"
+nico	= "sm32749550"
+page	= "[NOMBIRI-YA](https://ux.getuploader.com/nombiriya/download/12/二人用DinDonDanカメラ+おまけ.zip)"
+
+# blog 102 #############################
+
+[[use]]
+blog	= 102
+id      = "1.0003"	# Roid A子
+
+[[use]]
+blog	= 102
+id	 	= "1.0004"	# FRoid F子
+
+[[use]]
+blog	= 102
+id	 	= "6.0001"	# ヨガウェアー
+
+[[use]]
+blog	= 102
+id	 	= "2.0003"	# ストーンヘンジ
+
+[[use]]
+blog	= 102
+id	 	= "3.0001"	# 桜の公園 NN8
+
+[[use]]
+blog	= 102
+id	 	= "5.0001"	# AdultShader.fx
+
+[[use]]
+blog	= 102
+id	 	= "5.0005"	# SvSSAO.x
+
+[[use]]
+blog	= 102
+id	 	= "5.0004"	# KiraKira_Z
+
+[[use]]
+blog	= 102
+id	 	= "5.0006"	# KiraKira_Z_LE 改変 sakura
+
+[[use]]
+blog	= 102
+id	 	= "A.0003"	# 楽曲 Din Don Dan
+
+[[use]]
+blog	= 102
+id	 	= "B.0003"	# 振付 Din Don Dan
+
+[[use]]
+blog	= 102
+id	 	= "C.0003"	# モーション Din Don Dan
+
+[[use]]
+blog	= 102
+id	 	= "G.0003"	# カメラ Din Don Dan
+
+# blog 103 #############################
+
+[[use]]
+blog	= 103
+id	 	= "1.0002"	# うに式 試1.66
+
+[[use]]
+blog	= 103
+id	 	= "2.0002"	# ムムム草原
+
+[[use]]
+blog	= 103
+id	 	= "4.0002"	# ふかふか草むら
+
+[[use]]
+blog	= 103
+id	 	= "5.0001"	# AdultShader.fx
+
+[[use]]
+blog	= 103
+id	 	= "5.0003"	# Color.fx
+
+[[use]]
+blog	= 103
+id	 	= "5.0002"	# o_full-AlphaTest.fx
+
+[[use]]
+blog	= 103
+id	 	= "A.0002"	# 楽曲 ハローセカイ
+
+[[use]]
+blog	= 103
+id	 	= "B.0002"	# 振付 ハローセカイ
+
+[[use]]
+blog	= 103
+id	 	= "C.0002"	# モーション ハローセカイ
+
+[[use]]
+blog	= 103
+id	 	= "F.0002"	# リップ表情 ハローセカイ
+
+[[use]]
+blog	= 103
+id	 	= "G.0002"	# カメラ ハローセカイ
+
+# blog 104 #############################
+
+[[use]]
+blog	= 104
+id	 	= "1.0001"	# ふっこ
+
+[[use]]
+blog	= 104
+id	 	= "2.0001"	# 絵画の洋館 廃墟版
+
+[[use]]
+blog	= 104
+id	 	= "4.0001"	# コウモリパーティクル
+
+[[use]]
+blog	= 104
+id	 	= "5.0001"	# AdultShader.fx
+
+[[use]]
+blog	= 104
+id	 	= "A.0001"	# 楽曲 唱
+
+[[use]]
+blog	= 104
+id	 	= "B.0001"	# 振付 唱
+
+[[use]]
+blog	= 104
+id	 	= "C.0001"	# モーション 唱
+
+[[use]]
+blog	= 104
+id	 	= "F.0001"	# リップ表情 唱
+
+[[use]]
+blog	= 104
+id	 	= "G.0001"	# カメラ 唱
