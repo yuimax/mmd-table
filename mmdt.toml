@@ -34,7 +34,7 @@ nico	= "td95636"
 page	= "bowlroll/266800"
 
 [[item]]
-id	 	= "1.0004"	# FRoid F子
+id	 	= "1.0004"	# VRoid F子
 name	= "VRoid F子"
 remark	= "-"
 creator	= "yuima"
@@ -286,7 +286,7 @@ page	= "[NOMBIRI-YA](https://ux.getuploader.com/nombiriya/download/12/二人用D
 
 [[use]]
 blog	= 102
-id      = "1.0003"	# Roid A子
+id      = "1.0003"	# VRoid A子
 
 [[use]]
 blog	= 102
