@@ -107,32 +107,30 @@
 			<tbody>
 		`);
 
-		let lastBlog = -1;
-		for (const use of db.use) {
-			if (use.blog != lastBlog) {
-				document.write(`
-					<tr>
-					<th>blog</th>
-					<th>creator</th>
-					<th>category</th>
-					<th>name</th>
-					<th>nico ID</th>
-					<th>see also</th>
-					</tr>
-				`);
-				lastBlog = use.blog;
-			}
-			const item = db.item[use.id];
+		for (const use of db.uses) {
 			document.write(`
 				<tr>
-				<td>${get_blog_link(use.blog)}</td>
-				<td>${item.creator}</td>
-				<td>${get_category(use.id)}</td>
-				<td>${item.name}</td>
-				<td>${get_nico_link(item.nico)}</td>
-				<td>${get_page_link(item.page)}</td>
+				<th>blog</th>
+				<th>creator</th>
+				<th>category</th>
+				<th>name</th>
+				<th>nico ID</th>
+				<th>see also</th>
 				</tr>
-			`);		
+			`);
+			for (const id of use.ids) {
+				const item = db.item[id];
+				document.write(`
+					<tr>
+					<td>${get_blog_link(use.blog)}</td>
+					<td>${item.creator}</td>
+					<td>${get_category(id)}</td>
+					<td>${item.name}</td>
+					<td>${get_nico_link(item.nico)}</td>
+					<td>${get_page_link(item.page)}</td>
+					</tr>
+				`);
+			}
 		}
 
 		document.write(`
