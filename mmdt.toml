@@ -115,7 +115,7 @@ page	= "[針金のブログ/Color v0.0.3](https://hariganep.seesaa.net/article/2
 [[item]]
 id	 	= "5.0004"	# KiraKira_Z
 name	= "KiraKira_Z"
-remark	= "o_SurplusFilter"
+remark	= "-"
 creator	= "ビームマンP"
 nico	= "sm26425576"
 page	= "[ビームマンのエフェクト置き場](https://w.atwiki.jp/beamman/)"
@@ -393,7 +393,7 @@ id	 	= "5.0001"	# AdultShader.fx
 
 [[use]]
 blog	= 104
-id	 	= "5.0005"	# AdultShader.fx
+id	 	= "5.0005"	# SvSSAO.x
 
 [[use]]
 blog	= 104

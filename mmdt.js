@@ -93,7 +93,7 @@ const db = {
     },
     "5.0004": {
       "name": "KiraKira_Z",
-      "remark": "o_SurplusFilter",
+      "remark": "-",
       "creator": "ビームマンP",
       "nico": "sm26425576",
       "page": "[ビームマンのエフェクト置き場](https://w.atwiki.jp/beamman/)"

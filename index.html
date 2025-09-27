@@ -104,6 +104,7 @@
 		document.write(`
 			<div style="overflow-x: auto; margin-bottom: 16px;">
 			<table class="mmdt">
+			<tbody>
 		`);
 
 		let lastBlog = -1;
@@ -135,23 +136,24 @@
 		}
 
 		document.write(`
+			</tbody>
 			</table>
 			</div>
 		`);		
 
-		function copyHtml() {
+		async function copyHtml() {
 			const table = document.querySelector('table.mmdt');
 			const html = table.outerHTML.split(/\n/).map(s => s.trim()).join('\n') + '\n';
-			navigator.clipboard.writeText(html)
-				.then(() => {
-					alert("HTMLをクリップボードにコピーしました");
-				})
-				.catch(err => {
-					alert("エラー発生： " + err);
-				});      
+			try {
+				await navigator.clipboard.writeText(html);
+				alert("HTMLをクリップボードにコピーしました");
+			}
+			catch (err) {
+				alert("エラー発生： " + err);
+			}
 		}
 	</script>
-	<p><button id="copy" type="button" onclick="copyHtml();">テーブルの HTML をコピーする</button></p>
+	<p><button type="button" onclick="copyHtml();">テーブルの HTML をコピーする</button></p>
 	<p>ブログに戻る： <a href="https://acax.blog.fc2.com/e/107">https://acax.blog.fc2.com/e/107</a></p>
 	<p>データを管理： <a href="https://github.com/yuimax/mmd-table">https://github.com/yuimax/mmd-table</a></p>
 	<p><br><br><br><br><br><br></p>
