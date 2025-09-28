@@ -1,5 +1,33 @@
 const db = {
   "item": {
+    "T.0001": {
+      "name": "VRoid Studio",
+      "remark": "-",
+      "creator": "pixiv",
+      "nico": "-",
+      "page": "[VRoid Studio](https://vroid.com/studio)"
+    },
+    "T.0002": {
+      "name": "Vroid2Pmx",
+      "remark": "-",
+      "creator": "miu",
+      "nico": "im10854785",
+      "page": "bowlroll/267190"
+    },
+    "T.0003": {
+      "name": "PmxTailor",
+      "remark": "-",
+      "creator": "miu",
+      "nico": "im10854784",
+      "page": "bowlroll/267191"
+    },
+    "T.0004": {
+      "name": "VRM2PMXConverter",
+      "remark": "-",
+      "creator": "superowner (原作)<br>winglayer (和訳)",
+      "nico": "sm34705374",
+      "page": "bowlroll/191067"
+    },
     "1.0001": {
       "name": "ふっこ",
       "remark": "-",
@@ -49,12 +77,33 @@ const db = {
       "nico": "im11156311",
       "page": "bowlroll/297458"
     },
+    "2.0004": {
+      "name": "ウェスタンステージ",
+      "remark": "-",
+      "creator": "YOUCHA",
+      "nico": "sm27950318",
+      "page": "bowlroll/91070"
+    },
+    "2.0005": {
+      "name": "ケロリン町2.0",
+      "remark": "-",
+      "creator": "kelorin jo (BTA)",
+      "nico": "sm15988891",
+      "page": "bowlroll/125407"
+    },
     "3.0001": {
       "name": "桜の公園 NN8",
       "remark": "-",
       "creator": "怪獣対若大将P",
       "nico": "im5653835",
       "page": "bowlroll/97078"
+    },
+    "3.0002": {
+      "name": "天球Sunrise001.x",
+      "remark": "お年始skyset.zip に含まれる",
+      "creator": "銀匙",
+      "nico": "im5653835",
+      "page": "[銀匙倉庫０１](https://ux.getuploader.com/silverspoon_01/download/14)"
     },
     "4.0001": {
       "name": "コウモリパーティクル",
@@ -89,7 +138,7 @@ const db = {
       "remark": "HariganeEffectUpdatePack20130711.zip に含まれる",
       "creator": "針金P",
       "nico": "sm14067112",
-      "page": "[針金のブログ/Color v0.0.3](https://hariganep.seesaa.net/article/201203article_1.html)"
+      "page": "[針金のブログ/Color](https://hariganep.seesaa.net/article/201203article_1.html)"
     },
     "5.0004": {
       "name": "KiraKira_Z",
@@ -103,7 +152,7 @@ const db = {
       "remark": "SvSSAOの紹介動画が見つからないので他のエフェクトの紹介動画sm15369179で代用",
       "creator": "そぼろ",
       "nico": "sm15369179",
-      "page": "[MMD/Effects/SvSSAO.zip](https://onedrive.live.com/?id=EF581C37A4524EDA%21108&cid=EF581C37A4524EDA)"
+      "page": "[MMD/Effects](https://onedrive.live.com/?id=EF581C37A4524EDA%21108&cid=EF581C37A4524EDA)"
     },
     "5.0006": {
       "name": "KiraKira_Z_LE<br>改変 sakura",
@@ -111,6 +160,27 @@ const db = {
       "creator": "さくや",
       "nico": "-",
       "page": "bowlroll/100747"
+    },
+    "5.0007": {
+      "name": "被写界深度",
+      "remark": "-",
+      "creator": "矢立峠",
+      "nico": "sm36653860",
+      "page": "bowlroll/221627"
+    },
+    "5.0008": {
+      "name": "CheapLens.x",
+      "remark": "-",
+      "creator": "そぼろ",
+      "nico": "sm15369179",
+      "page": "[MMD/Effects](https://onedrive.live.com/?id=EF581C37A4524EDA%21108&cid=EF581C37A4524EDA)"
+    },
+    "5.0009": {
+      "name": "WorkingFloorX.x",
+      "remark": "",
+      "creator": "針金P",
+      "nico": "sm14067112",
+      "page": "[針金のブログ/WorkingFloorX](https://hariganep.seesaa.net/article/201203article_1.html)"
     },
     "6.0001": {
       "name": "ヨガウェアー",
@@ -216,9 +286,96 @@ const db = {
       "creator": "NOMBIRI-YA",
       "nico": "sm32749550",
       "page": "[NOMBIRI-YA](https://ux.getuploader.com/nombiriya/download/12/二人用DinDonDanカメラ+おまけ.zip)"
+    },
+    "A.0004": {
+      "name": "よくばり",
+      "remark": "-",
+      "creator": "Ayase",
+      "nico": "sm37073901",
+      "page": "-"
+    },
+    "B.0004": {
+      "name": "よくばり",
+      "remark": "-",
+      "creator": "神沢有紗",
+      "nico": "sm37130304",
+      "page": "-"
+    },
+    "C.0004": {
+      "name": "よくばり",
+      "remark": "-",
+      "creator": "づなうじ",
+      "nico": "sm37478923",
+      "page": "bowlroll/235498"
+    },
+    "G.0004": {
+      "name": "よくばり",
+      "remark": "-",
+      "creator": "ノン",
+      "nico": "sm37486571",
+      "page": "bowlroll/235607"
+    },
+    "A.0005": {
+      "name": "回生",
+      "remark": "-",
+      "creator": "ゆくえわっと",
+      "nico": "sm38151837",
+      "page": "-"
+    },
+    "B.0005": {
+      "name": "回生",
+      "remark": "-",
+      "creator": "足太ぺんた",
+      "nico": "sm38348434",
+      "page": "-"
+    },
+    "C.0005": {
+      "name": "回生",
+      "remark": "-",
+      "creator": "ない",
+      "nico": "sm40151366",
+      "page": "bowlroll/273400"
+    },
+    "G.0005": {
+      "name": "回生",
+      "remark": "-",
+      "creator": "まさちち",
+      "nico": "sm40179415",
+      "page": "bowlroll/273748"
     }
   },
   "uses": [
+    {
+      "product": 33,
+      "ids": [
+        "T.0001",
+        "T.0004",
+        "T.0003",
+        "2.0004",
+        "5.0007",
+        "5.0008",
+        "A.0004",
+        "B.0004",
+        "C.0004",
+        "G.0004"
+      ]
+    },
+    {
+      "product": 37,
+      "ids": [
+        "T.0001",
+        "T.0002",
+        "T.0003",
+        "2.0005",
+        "3.0002",
+        "5.0001",
+        "5.0009",
+        "A.0005",
+        "B.0005",
+        "C.0005",
+        "G.0005"
+      ]
+    },
     {
       "product": 102,
       "ids": [

@@ -7,6 +7,40 @@
 #	nico	= "ニコニコID"	# 動画(sm～)、静画(im～)、立体(td～)
 #	page	= "参照ページ"	# "[タイトル](URL)" 、または特殊形式 "bowlroll/番号" など
 
+# T.xxxx = ツール ######################
+
+[[item]]
+id		= "T.0001"	# VRoid Studio
+name	= "VRoid Studio"
+remark	= "-"
+creator	= "pixiv"
+nico	= "-"
+page	= "[VRoid Studio](https://vroid.com/studio)"
+
+[[item]]
+id		= "T.0002"	# Vroid2Pmx
+name	= "Vroid2Pmx"
+remark	= "-"
+creator	= "miu"
+nico	= "im10854785"
+page	= "bowlroll/267190"
+
+[[item]]
+id		= "T.0003"	# PmxTailor
+name	= "PmxTailor"
+remark	= "-"
+creator	= "miu"
+nico	= "im10854784"
+page	= "bowlroll/267191"
+
+[[item]]
+id		= "T.0004"	# VRM2PMXConverter
+name	= "VRM2PMXConverter"
+remark	= "-"
+creator	= "superowner (原作)<br>winglayer (和訳)"
+nico	= "sm34705374"
+page	= "bowlroll/191067"
+
 # 1.xxxx = モデル ######################
 
 [[item]]
@@ -67,6 +101,22 @@ creator	= "ばんぞく"
 nico	= "im11156311"
 page	= "bowlroll/297458"
 
+[[item]]
+id	 	= "2.0004"	# ウェスタンステージ
+name	= "ウェスタンステージ"
+remark	= "-"
+creator	= "YOUCHA"
+nico	= "sm27950318"
+page	= "bowlroll/91070"
+
+[[item]]
+id	 	= "2.0005"	# ケロリン町2.0
+name	= "ケロリン町2.0"
+remark	= "-"
+creator	= "kelorin jo (BTA)"
+nico	= "sm15988891"
+page	= "bowlroll/125407"
+
 # 3.xxxx = スカイドーム ################
 
 [[item]]
@@ -76,6 +126,14 @@ remark	= "-"
 creator	= "怪獣対若大将P"
 nico	= "im5653835"
 page	= "bowlroll/97078"
+
+[[item]]
+id	 	= "3.0002"	# 天球Sunrise001
+name	= "天球Sunrise001.x"
+remark	= "お年始skyset.zip に含まれる"
+creator	= "銀匙"
+nico	= "im5653835"
+page	= "[銀匙倉庫０１](https://ux.getuploader.com/silverspoon_01/download/14)"
 
 # 4.xxxx = アクセサリ ##################
 
@@ -119,7 +177,7 @@ name	= "Color.fx"
 remark	= "HariganeEffectUpdatePack20130711.zip に含まれる"
 creator	= "針金P"
 nico	= "sm14067112"
-page	= "[針金のブログ/Color v0.0.3](https://hariganep.seesaa.net/article/201203article_1.html)"
+page	= "[針金のブログ/Color](https://hariganep.seesaa.net/article/201203article_1.html)"
 
 [[item]]
 id	 	= "5.0004"	# KiraKira_Z
@@ -135,7 +193,7 @@ name	= "SvSSAO.x"
 remark	= "SvSSAOの紹介動画が見つからないので他のエフェクトの紹介動画sm15369179で代用"
 creator	= "そぼろ"
 nico	= "sm15369179"
-page	= "[MMD/Effects/SvSSAO.zip](https://onedrive.live.com/?id=EF581C37A4524EDA%21108&cid=EF581C37A4524EDA)"
+page	= "[MMD/Effects](https://onedrive.live.com/?id=EF581C37A4524EDA%21108&cid=EF581C37A4524EDA)"
 
 [[item]]
 id	 	= "5.0006"	# KiraKira_Z_LE 改変 sakura
@@ -144,6 +202,30 @@ remark	= "-"
 creator	= "さくや"
 nico	= "-"
 page	= "bowlroll/100747"
+
+[[item]]
+id	 	= "5.0007"	# 被写界深度
+name	= "被写界深度"
+remark	= "-"
+creator	= "矢立峠"
+nico	= "sm36653860"
+page	= "bowlroll/221627"
+
+[[item]]
+id	 	= "5.0008"	# CheapLens.x
+name	= "CheapLens.x"
+remark	= "-"
+creator	= "そぼろ"
+nico	= "sm15369179"
+page	= "[MMD/Effects](https://onedrive.live.com/?id=EF581C37A4524EDA%21108&cid=EF581C37A4524EDA)"
+
+[[item]]
+id	 	= "5.0009"	# WorkingFloorX
+name	= "WorkingFloorX.x"
+remark	= ""
+creator	= "針金P"
+nico	= "sm14067112"
+page	= "[針金のブログ/WorkingFloorX](https://hariganep.seesaa.net/article/201203article_1.html)"
 
 # 6.xxxx = 衣装 ########################
 
@@ -282,6 +364,109 @@ creator	= "NOMBIRI-YA"
 nico	= "sm32749550"
 page	= "[NOMBIRI-YA](https://ux.getuploader.com/nombiriya/download/12/二人用DinDonDanカメラ+おまけ.zip)"
 
+# 楽曲 よくばり ###################################
+
+[[item]]
+id	 	= "A.0004"	# 楽曲 よくばり
+name	= "よくばり"
+remark	= "-"
+creator	= "Ayase"
+nico	= "sm37073901"
+page	= "-"
+
+[[item]]
+id	 	= "B.0004"	# 振付 よくばり
+name	= "よくばり"
+remark	= "-"
+creator	= "神沢有紗"
+nico	= "sm37130304"
+page	= "-"
+
+[[item]]
+id	 	= "C.0004"	# モーション よくばり
+name	= "よくばり"
+remark	= "-"
+creator	= "づなうじ"
+nico	= "sm37478923"
+page	= "bowlroll/235498"
+
+[[item]]
+id	 	= "G.0004"	# カメラ よくばり
+name	= "よくばり"
+remark	= "-"
+creator	= "ノン"
+nico	= "sm37486571"
+page	= "bowlroll/235607"
+
+# 楽曲 回生 ###################################
+
+[[item]]
+id	 	= "A.0005"	# 楽曲 回生
+name	= "回生"
+remark	= "-"
+creator	= "ゆくえわっと"
+nico	= "sm38151837"
+page	= "-"
+
+[[item]]
+id	 	= "B.0005"	# 振付 回生
+name	= "回生"
+remark	= "-"
+creator	= "足太ぺんた"
+nico	= "sm38348434"
+page	= "-"
+
+[[item]]
+id	 	= "C.0005"	# モーション 回生
+name	= "回生"
+remark	= "-"
+creator	= "ない"
+nico	= "sm40151366"
+page	= "bowlroll/273400"
+
+[[item]]
+id	 	= "G.0005"	# カメラ 回生
+name	= "回生"
+remark	= "-"
+creator	= "まさちち"
+nico	= "sm40179415"
+page	= "bowlroll/273748"
+
+# uses 33 ##############################
+
+[[uses]]
+product = 33
+ids = [
+	"T.0001",	# VRoid Studio
+	"T.0004",	# VRM2PMXConverter
+	"T.0003",	# PmxTailor
+	"2.0004",	# ウェスタンステージ
+	"5.0007",	# 被写界深度
+	"5.0008",	# CheapLens.x
+	"A.0004",	# 楽曲 よくばり
+	"B.0004",	# 振付 よくばり
+	"C.0004",	# モーション よくばり
+	"G.0004",	# カメラ よくばり
+]
+
+# uses 37 ##############################
+
+[[uses]]
+product = 37
+ids = [
+	"T.0001",	# VRoid Studio
+	"T.0002",	# Vroid2Pmx
+	"T.0003",	# PmxTailor
+	"2.0005",	# ケロリン町2.0
+	"3.0002",	# 天球Sunrise001
+	"5.0001",	# AdultShader.fx
+	"5.0009",	# WorkingFloorX
+	"A.0005",	# 楽曲 回生
+	"B.0005",	# 振付 回生
+	"C.0005",	# モーション 回生
+	"G.0005",	# カメラ 回生
+]
+
 # uses 102 #############################
 
 [[uses]]
@@ -336,3 +521,4 @@ ids = [
 	"F.0001",	# リップ表情 唱
 	"G.0001",	# カメラ 唱
 ]
+
