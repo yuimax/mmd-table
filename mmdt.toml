@@ -41,6 +41,32 @@ creator	= "superowner (原作)<br>winglayer (和訳)"
 nico	= "sm34705374"
 page	= "bowlroll/191067"
 
+# P.xxxx = プラグイン ##################
+
+[[item]]
+id		= "P.0001"	# 準標準ボーン追加
+name	= "準標準ボーン追加<br>SemiStandardBones"
+remark	= "-"
+creator	= "そぼろ"
+nico	= "sm14956092"
+page	= "[MMD/PMDE_Plugins](https://onedrive.live.com/?id=EF581C37A4524EDA%21196&cid=EF581C37A4524EDA)"
+
+[[item]]
+id		= "P.0002"	# 闇鍋プラグイン
+name	= "闇鍋プラグイン"
+remark	= "-"
+creator	= "t0r0"
+nico	= "-"
+page	= "bowlroll/9765"
+
+[[item]]
+id		= "P.0003"	# 捩りボーン自動分散
+name	= "捩りボーン自動分散"
+remark	= "-"
+creator	= "P.I.P"
+nico	= "-"
+page	= "bowlroll/116180"
+
 # 1.xxxx = モデル ######################
 
 [[item]]
@@ -626,6 +652,9 @@ ids = [
 	"T.0010",	# つんでれんこ
 	"T.0009",	# AviUtl
 	"T.0011",	# PMXエディター
+	"P.0001",	# 準標準ボーン追加
+	"P.0002",	# 闇鍋プラグイン
+	"P.0003",	# 捩りボーン自動分散
 	"T.0001",	# VRoid Studio
 	"T.0002",	# Vroid2Pmx
 	"T.0003",	# PmxTailor

@@ -28,6 +28,27 @@ const db = {
       "nico": "sm34705374",
       "page": "bowlroll/191067"
     },
+    "P.0001": {
+      "name": "準標準ボーン追加<br>SemiStandardBones",
+      "remark": "-",
+      "creator": "そぼろ",
+      "nico": "sm14956092",
+      "page": "[MMD/PMDE_Plugins](https://onedrive.live.com/?id=EF581C37A4524EDA%21196&cid=EF581C37A4524EDA)"
+    },
+    "P.0002": {
+      "name": "闇鍋プラグイン",
+      "remark": "-",
+      "creator": "t0r0",
+      "nico": "-",
+      "page": "bowlroll/9765"
+    },
+    "P.0003": {
+      "name": "捩りボーン自動分散",
+      "remark": "-",
+      "creator": "P.I.P",
+      "nico": "-",
+      "page": "bowlroll/116180"
+    },
     "1.0001": {
       "name": "ふっこ",
       "remark": "-",
@@ -511,6 +532,9 @@ const db = {
         "T.0010",
         "T.0009",
         "T.0011",
+        "P.0001",
+        "P.0002",
+        "P.0003",
         "T.0001",
         "T.0002",
         "T.0003",
