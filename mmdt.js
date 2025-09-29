@@ -488,14 +488,14 @@ const db = {
       "remark": "-",
       "creator": "みうめ",
       "nico": "sm22013530",
-      "page": "-"
+      "page": "全体的な振付"
     },
     "B.0007": {
       "name": "Lamb.",
       "remark": "冒頭部分がモーション C.0006 の参考にされた",
       "creator": "Az",
       "nico": "sm22352756",
-      "page": "-"
+      "page": "冒頭部の振付"
     },
     "C.0006": {
       "name": "Lamb.",
