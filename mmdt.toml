@@ -608,6 +608,14 @@ nico	= "sm22013530"
 page	= "-"
 
 [[item]]
+id	 	= "B.0007"	# 振付 Lamb. その2
+name	= "Lamb."
+remark	= "冒頭がモーション C.0006 の参考にされた"
+creator	= "Az"
+nico	= "sm22013530"
+page	= "-"
+
+[[item]]
 id	 	= "C.0006"	# モーション Lamb.
 name	= "Lamb."
 remark	= "-"
@@ -635,6 +643,7 @@ ids = [
 	"5.0009",	# WorkingFloorX
 	"A.0006",	# 楽曲 Lamb.
 	"B.0006",	# 振付 Lamb.
+	"B.0007",	# 振付 Lamb. その2
 	"C.0006",	# モーション Lamb.
 	"G.0006",	# カメラ Lamb.
 #	"T.0001",	# VRoid Studio
