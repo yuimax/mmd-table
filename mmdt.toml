@@ -605,7 +605,7 @@ name	= "Lamb."
 remark	= "-"
 creator	= "みうめ"
 nico	= "sm22013530"
-page	= "全体的な振付"
+page	= "本家振付"
 
 [[item]]
 id	 	= "B.0007"	# 振付 Lamb. その2
@@ -613,7 +613,7 @@ name	= "Lamb."
 remark	= "冒頭部分がモーション C.0006 の参考にされた"
 creator	= "Az"
 nico	= "sm22352756"
-page	= "冒頭部の振付"
+page	= "冒頭部アレンジ"
 
 [[item]]
 id	 	= "C.0006"	# モーション Lamb.
