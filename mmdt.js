@@ -264,7 +264,7 @@ const db = {
       "remark": "HariganeEffectUpdatePack20130711.zip に含まれる",
       "creator": "針金P",
       "nico": "sm14067112",
-      "page": "[針金のブログ/Color](https://hariganep.seesaa.net/article/201203article_1.html)"
+      "page": "[針金のブログ](https://hariganep.seesaa.net/article/201203article_1.html)"
     },
     "5.0004": {
       "name": "KiraKira_Z",
@@ -305,8 +305,8 @@ const db = {
       "name": "WorkingFloorX.x",
       "remark": "",
       "creator": "針金P",
-      "nico": "sm14067112",
-      "page": "[針金のブログ/WorkingFloorX](https://hariganep.seesaa.net/article/201203article_1.html)"
+      "nico": "im1575145",
+      "page": "[針金のブログ](https://hariganep.seesaa.net/article/201203article_1.html)"
     },
     "5.0010": {
       "name": "AutoLuminous4",
