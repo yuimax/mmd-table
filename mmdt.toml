@@ -190,6 +190,31 @@ creator	= "yuima"
 nico	= "td95636"
 page	= "bowlroll/320277"
 
+[[item]]
+id	 	= "1.0005"	# VRoid B子
+name	= "VRoid B子"
+remark	= "-"
+creator	= "yuima"
+nico	= "td95636"
+page	= "bowlroll/276667"
+
+[[item]]
+id	 	= "1.0006"	# VRoid C子
+name	= "VRoid C子"
+remark	= "-"
+creator	= "yuima"
+nico	= "td95636"
+page	= "bowlroll/299133"
+
+[[item]]
+id	 	= "1.0007"	# VRoid D子
+name	= "VRoid D子"
+remark	= "-"
+creator	= "yuima"
+nico	= "td95636"
+page	= "bowlroll/299134"
+
+
 # 2.xxxx = ステージ ####################
 
 [[item]]
@@ -231,6 +256,15 @@ remark	= "-"
 creator	= "kelorin jo (BTA)"
 nico	= "sm15988891"
 page	= "bowlroll/125407"
+
+[[item]]
+id	 	= "2.0006"	# レンガ壁の部屋-01
+name	= "レンガ壁の部屋-01"
+remark	= "-"
+creator	= "ツチネコ"
+nico	= "im6880180"
+page	= "bowlroll/142449 "
+
 
 # 3.xxxx = スカイドーム ################
 
@@ -341,6 +375,14 @@ remark	= ""
 creator	= "針金P"
 nico	= "sm14067112"
 page	= "[針金のブログ/WorkingFloorX](https://hariganep.seesaa.net/article/201203article_1.html)"
+
+[[item]]
+id	 	= "5.0010"	# AutoLuminous4
+name	= "AutoLuminous4"
+remark	= "-"
+creator	= "そぼろ"
+nico	= "sm16087751"
+page	= "[MMD/Effects](https://onedrive.live.com/?id=EF581C37A4524EDA%21108&cid=EF581C37A4524EDA)"
 
 # 6.xxxx = 衣装 ########################
 
@@ -547,14 +589,65 @@ creator	= "まさちち"
 nico	= "sm40179415"
 page	= "bowlroll/273748"
 
+# 楽曲 Lamb. ##################################
+
+[[item]]
+id	 	= "A.0006"	# 楽曲 Lamb.
+name	= "Lamb."
+remark	= "-"
+creator	= "GARNiDELiA"
+nico	= "sm22012252"
+page	= "-"
+
+[[item]]
+id	 	= "B.0006"	# 振付 Lamb.
+name	= "Lamb."
+remark	= "-"
+creator	= "みうめ"
+nico	= "sm22013530"
+page	= "-"
+
+[[item]]
+id	 	= "C.0006"	# モーション Lamb.
+name	= "Lamb."
+remark	= "-"
+creator	= "yurie"
+nico	= "sm22498017"
+page	= "bowlroll/30717"
+
+[[item]]
+id	 	= "G.0006"	# カメラ Lamb.
+name	= "Lamb."
+remark	= "-"
+creator	= "Amelio"
+nico	= "sm22746359"
+page	= "bowlroll/31598"
+
+# uses 69 ##############################
+
+[[uses]]
+product = 69
+ids = [
+	"1.0007",	# VRoid D子
+	"2.0006",	# レンガ壁の部屋-01
+	"5.0010",	# AutoLuminous4
+	"5.0001",	# AdultShader.fx
+	"5.0009",	# WorkingFloorX
+	"A.0006",	# 楽曲 Lamb.
+	"B.0006",	# 振付 Lamb.
+	"C.0006",	# モーション Lamb.
+	"G.0006",	# カメラ Lamb.
+#	"T.0001",	# VRoid Studio
+#	"T.0002",	# Vroid2Pmx
+#	"T.0003",	# PmxTailor
+]
+
 # uses 33 ##############################
 
 [[uses]]
 product = 33
 ids = [
-	"T.0001",	# VRoid Studio
-	"T.0004",	# VRM2PMXConverter
-	"T.0003",	# PmxTailor
+	"1.0003",	# VRoid A子
 	"2.0004",	# ウェスタンステージ
 	"5.0007",	# 被写界深度
 	"5.0008",	# CheapLens.x
@@ -562,6 +655,9 @@ ids = [
 	"B.0004",	# 振付 よくばり
 	"C.0004",	# モーション よくばり
 	"G.0004",	# カメラ よくばり
+#	"T.0001",	# VRoid Studio
+#	"T.0004",	# VRM2PMXConverter
+#	"T.0003",	# PmxTailor
 ]
 
 # uses 37 ##############################
@@ -569,9 +665,7 @@ ids = [
 [[uses]]
 product = 37
 ids = [
-	"T.0001",	# VRoid Studio
-	"T.0002",	# Vroid2Pmx
-	"T.0003",	# PmxTailor
+	"1.0003",	# VRoid A子
 	"2.0005",	# ケロリン町2.0
 	"3.0002",	# 天球Sunrise001
 	"5.0001",	# AdultShader.fx
@@ -580,6 +674,9 @@ ids = [
 	"B.0005",	# 振付 回生
 	"C.0005",	# モーション 回生
 	"G.0005",	# カメラ 回生
+#	"T.0001",	# VRoid Studio
+#	"T.0002",	# Vroid2Pmx
+#	"T.0003",	# PmxTailor
 ]
 
 # uses 102 #############################
@@ -600,6 +697,9 @@ ids = [
 	"B.0003",	# 振付 Din Don Dan
 	"C.0003",	# モーション Din Don Dan
 	"G.0003",	# カメラ Din Don Dan
+#	"T.0001",	# VRoid Studio
+#	"T.0002",	# Vroid2Pmx
+#	"T.0003",	# PmxTailor
 ]
 
 # uses 103 #############################

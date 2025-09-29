@@ -154,6 +154,27 @@ const db = {
       "nico": "td95636",
       "page": "bowlroll/320277"
     },
+    "1.0005": {
+      "name": "VRoid B子",
+      "remark": "-",
+      "creator": "yuima",
+      "nico": "td95636",
+      "page": "bowlroll/276667"
+    },
+    "1.0006": {
+      "name": "VRoid C子",
+      "remark": "-",
+      "creator": "yuima",
+      "nico": "td95636",
+      "page": "bowlroll/299133"
+    },
+    "1.0007": {
+      "name": "VRoid D子",
+      "remark": "-",
+      "creator": "yuima",
+      "nico": "td95636",
+      "page": "bowlroll/299134"
+    },
     "2.0001": {
       "name": "絵画の洋館 廃墟版",
       "remark": "-",
@@ -188,6 +209,13 @@ const db = {
       "creator": "kelorin jo (BTA)",
       "nico": "sm15988891",
       "page": "bowlroll/125407"
+    },
+    "2.0006": {
+      "name": "レンガ壁の部屋-01",
+      "remark": "-",
+      "creator": "ツチネコ",
+      "nico": "im6880180",
+      "page": "bowlroll/142449 "
     },
     "3.0001": {
       "name": "桜の公園 NN8",
@@ -279,6 +307,13 @@ const db = {
       "creator": "針金P",
       "nico": "sm14067112",
       "page": "[針金のブログ/WorkingFloorX](https://hariganep.seesaa.net/article/201203article_1.html)"
+    },
+    "5.0010": {
+      "name": "AutoLuminous4",
+      "remark": "-",
+      "creator": "そぼろ",
+      "nico": "sm16087751",
+      "page": "[MMD/Effects](https://onedrive.live.com/?id=EF581C37A4524EDA%21108&cid=EF581C37A4524EDA)"
     },
     "6.0001": {
       "name": "ヨガウェアー",
@@ -440,15 +475,55 @@ const db = {
       "creator": "まさちち",
       "nico": "sm40179415",
       "page": "bowlroll/273748"
+    },
+    "A.0006": {
+      "name": "Lamb.",
+      "remark": "-",
+      "creator": "GARNiDELiA",
+      "nico": "sm22012252",
+      "page": "-"
+    },
+    "B.0006": {
+      "name": "Lamb.",
+      "remark": "-",
+      "creator": "みうめ",
+      "nico": "sm22013530",
+      "page": "-"
+    },
+    "C.0006": {
+      "name": "Lamb.",
+      "remark": "-",
+      "creator": "yurie",
+      "nico": "sm22498017",
+      "page": "bowlroll/30717"
+    },
+    "G.0006": {
+      "name": "Lamb.",
+      "remark": "-",
+      "creator": "Amelio",
+      "nico": "sm22746359",
+      "page": "bowlroll/31598"
     }
   },
   "uses": [
     {
+      "product": 69,
+      "ids": [
+        "1.0007",
+        "2.0006",
+        "5.0010",
+        "5.0001",
+        "5.0009",
+        "A.0006",
+        "B.0006",
+        "C.0006",
+        "G.0006"
+      ]
+    },
+    {
       "product": 33,
       "ids": [
-        "T.0001",
-        "T.0004",
-        "T.0003",
+        "1.0003",
         "2.0004",
         "5.0007",
         "5.0008",
@@ -461,9 +536,7 @@ const db = {
     {
       "product": 37,
       "ids": [
-        "T.0001",
-        "T.0002",
-        "T.0003",
+        "1.0003",
         "2.0005",
         "3.0002",
         "5.0001",
