@@ -75,7 +75,7 @@ const db = {
       "remark": "-",
       "creator": "極北P",
       "nico": "sm20566765",
-      "page": "[とある工房](https://tdenc.com/tdenc/)"
+      "page": "[とある工房](https://kkhk22.seesaa.net/category/14045227-1.html)"
     },
     "T.0012": {
       "name": "VMDサイジング",
@@ -95,7 +95,7 @@ const db = {
       "name": "movie2avi.bat",
       "remark": "-",
       "creator": "こ～りん",
-      "nico": "",
+      "nico": "-",
       "page": "bowlroll/10226"
     },
     "T.0015": {
