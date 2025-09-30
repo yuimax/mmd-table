@@ -761,6 +761,7 @@ ids = [
 	"P.0002",	# 闇鍋プラグイン
 	"P.0003",	# 捩りボーン自動分散
 	"T.0001",	# VRoid Studio
+	"T.0004",	# VRM2PMXConverter
 	"T.0002",	# Vroid2Pmx
 	"T.0003",	# PmxTailor
 	"T.0012",	# VMDサイジング
