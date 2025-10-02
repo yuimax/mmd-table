@@ -265,6 +265,13 @@ creator	= "ツチネコ"
 nico	= "im6880180"
 page	= "bowlroll/142449 "
 
+[[item]]
+id	 	= "2.0007"	# 撮影用背景ステージ
+name	= "撮影用背景ステージ"
+remark	= "-"
+creator	= "悟遠塔也"
+nico	= "im5775513"
+page	= "[悟が遠いロダ](http://ux.getuploader.com/Goto_Toya/download/30/撮影用背景2_v100.zip)"
 
 # 3.xxxx = スカイドーム ################
 
@@ -769,5 +776,5 @@ ids = [
 	"T.0015",	# PictAcc
 	"T.0013",	# COEIROINK
 	"T.0005",	# BowlRoll
+	"2.0007",	# 撮影用背景ステージ
 ]
-

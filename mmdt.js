@@ -217,6 +217,13 @@ const db = {
       "nico": "im6880180",
       "page": "bowlroll/142449 "
     },
+    "2.0007": {
+      "name": "撮影用背景ステージ",
+      "remark": "-",
+      "creator": "悟遠塔也",
+      "nico": "im5775513",
+      "page": "[悟が遠いロダ](http://ux.getuploader.com/Goto_Toya/download/30/撮影用背景2_v100.zip)"
+    },
     "3.0001": {
       "name": "桜の公園 NN8",
       "remark": "-",
@@ -624,7 +631,8 @@ const db = {
         "T.0014",
         "T.0015",
         "T.0013",
-        "T.0005"
+        "T.0005",
+        "2.0007"
       ]
     }
   ]
