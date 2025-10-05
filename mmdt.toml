@@ -638,24 +638,52 @@ creator	= "Amelio"
 nico	= "sm22746359"
 page	= "bowlroll/31598"
 
-# uses 69 ##############################
+# 楽曲 少女未遂 #########################
+
+[[item]]
+id	 	= "A.0009"	# 楽曲 少女未遂
+name	= "少女未遂"
+remark	= "-"
+creator	= "古墳P"
+nico	= "sm13547749"
+page	= "-"
+
+[[item]]
+id	 	= "B.0009"	# 振付 少女未遂
+name	= "少女未遂"
+remark	= "-"
+creator	= "のら<br>＠ちーちゃん"
+nico	= "sm17710277"
+page	= "-"
+
+[[item]]
+id	 	= "C.0009"	# モーション 少女未遂
+name	= "少女未遂"
+remark	= "-"
+creator	= "ごしかん"
+nico	= "sm18513131"
+page	= "[ごっしかん](https://ux.getuploader.com/gosikan/)"
+
+[[item]]
+id	 	= "G.0009"	# カメラ 少女未遂
+name	= "少女未遂"
+remark	= "-"
+creator	= "doramata"
+nico	= "sm19290621"
+page	= "bowlroll/10375"
+
+
+# uses 110 #############################
 
 [[uses]]
-product = 69
+product = 110
 ids = [
+	"1.0006",	# VRoid C子
 	"1.0007",	# VRoid D子
-	"2.0006",	# レンガ壁の部屋-01
-	"5.0010",	# AutoLuminous4
 	"5.0001",	# AdultShader.fx
-	"5.0009",	# WorkingFloorX
-	"A.0006",	# 楽曲 Lamb.
-	"B.0006",	# 振付 Lamb.
-	"B.0007",	# 振付 Lamb. その2
-	"C.0006",	# モーション Lamb.
-	"G.0006",	# カメラ Lamb.
-#	"T.0001",	# VRoid Studio
-#	"T.0002",	# Vroid2Pmx
-#	"T.0003",	# PmxTailor
+	"A.0009",	# 楽曲 少女未遂
+	"B.0009",	# 振付 少女未遂
+	"C.0009",	# モーション 少女未遂
 ]
 
 # uses 33 ##############################
@@ -695,6 +723,23 @@ ids = [
 #	"T.0003",	# PmxTailor
 ]
 
+# uses 69 ##############################
+
+[[uses]]
+product = 69
+ids = [
+	"1.0007",	# VRoid D子
+	"2.0006",	# レンガ壁の部屋-01
+	"5.0010",	# AutoLuminous4
+	"5.0001",	# AdultShader.fx
+	"5.0009",	# WorkingFloorX
+	"A.0006",	# 楽曲 Lamb.
+	"B.0006",	# 振付 Lamb.
+	"B.0007",	# 振付 Lamb. その2
+	"C.0006",	# モーション Lamb.
+	"G.0006",	# カメラ Lamb.
+]
+
 # uses 102 #############################
 
 [[uses]]
@@ -713,9 +758,6 @@ ids = [
 	"B.0003",	# 振付 Din Don Dan
 	"C.0003",	# モーション Din Don Dan
 	"G.0003",	# カメラ Din Don Dan
-#	"T.0001",	# VRoid Studio
-#	"T.0002",	# Vroid2Pmx
-#	"T.0003",	# PmxTailor
 ]
 
 # uses 103 #############################
