@@ -176,14 +176,14 @@ const db = {
       "page": "bowlroll/299134"
     },
     "1.0008": {
-      "name": "衣川希（おねーちゃん1号）",
+      "name": "衣川希<br>(おねーちゃん1号)",
       "remark": "KEITEL式おねーちゃんズ",
       "creator": "KEITEL",
       "nico": "im10881555",
       "page": "bowlroll/269833"
     },
     "1.0009": {
-      "name": "衣川光莉（おねーちゃん5号）",
+      "name": "衣川光莉<br>(おねーちゃん5号)",
       "remark": "KEITEL式おねーちゃんズ",
       "creator": "KEITEL",
       "nico": "im10881555",

@@ -215,16 +215,16 @@ nico	= "td95636"
 page	= "bowlroll/299134"
 
 [[item]]
-id	 	= "1.0008"	# 衣川希（おねーちゃん1号）
-name	= "衣川希（おねーちゃん1号）"
+id	 	= "1.0008"	# 衣川希(おねーちゃん1号)
+name	= "衣川希<br>(おねーちゃん1号)"
 remark	= "KEITEL式おねーちゃんズ"
 creator	= "KEITEL"
 nico	= "im10881555"
 page	= "bowlroll/269833"
 
 [[item]]
-id	 	= "1.0009"	# 衣川光莉（おねーちゃん5号）
-name	= "衣川光莉（おねーちゃん5号）"
+id	 	= "1.0009"	# 衣川光莉(おねーちゃん5号)
+name	= "衣川光莉<br>(おねーちゃん5号)"
 remark	= "KEITEL式おねーちゃんズ"
 creator	= "KEITEL"
 nico	= "im10881555"
