@@ -175,6 +175,13 @@ const db = {
       "nico": "td95636",
       "page": "bowlroll/299134"
     },
+    "1.0008": {
+      "name": "おねーちゃんズ",
+      "remark": "-",
+      "creator": "KEITEL",
+      "nico": "im10881555",
+      "page": "bowlroll/269833"
+    },
     "2.0001": {
       "name": "絵画の洋館 廃墟版",
       "remark": "-",
@@ -215,7 +222,7 @@ const db = {
       "remark": "-",
       "creator": "ツチネコ",
       "nico": "im6880180",
-      "page": "bowlroll/142449 "
+      "page": "bowlroll/142449"
     },
     "2.0007": {
       "name": "撮影用背景ステージ",
@@ -223,6 +230,13 @@ const db = {
       "creator": "悟遠塔也",
       "nico": "im5775513",
       "page": "[悟が遠いロダ](http://ux.getuploader.com/Goto_Toya/download/30/撮影用背景2_v100.zip)"
+    },
+    "2.0008": {
+      "name": "Kawaiiルーム",
+      "remark": "-",
+      "creator": "ムムム",
+      "nico": "im10756683",
+      "page": "bowlroll/255589"
     },
     "3.0001": {
       "name": "桜の公園 NN8",
@@ -552,20 +566,37 @@ const db = {
       "creator": "doramata",
       "nico": "sm19290621",
       "page": "bowlroll/10375"
+    },
+    "A.0010": {
+      "name": "ザムザ",
+      "remark": "-",
+      "creator": "てにをは",
+      "nico": "sm42047041",
+      "page": "-"
+    },
+    "B.0010": {
+      "name": "ザムザ",
+      "remark": "-",
+      "creator": "ひかる",
+      "nico": "sm43318585",
+      "page": "[本人の踊ってみた](https://nico.ms/sm43453626)"
+    },
+    "C.0010": {
+      "name": "ザムザ",
+      "remark": "-",
+      "creator": "mobiusP",
+      "nico": "sm43034568",
+      "page": "bowlroll/309776"
+    },
+    "G.0010": {
+      "name": "ザムザ",
+      "remark": "-",
+      "creator": "水瀬ミナ",
+      "nico": "sm43039607",
+      "page": "bowlroll/309833"
     }
   },
   "uses": [
-    {
-      "product": 110,
-      "ids": [
-        "1.0006",
-        "1.0007",
-        "5.0001",
-        "A.0009",
-        "B.0009",
-        "C.0009"
-      ]
-    },
     {
       "product": 33,
       "ids": [
@@ -658,6 +689,13 @@ const db = {
       ]
     },
     {
+      "product": 107,
+      "ids": [
+        "2.0007",
+        "7.0001"
+      ]
+    },
+    {
       "product": 106,
       "ids": [
         "T.0007",
@@ -681,10 +719,27 @@ const db = {
       ]
     },
     {
-      "product": 107,
+      "product": 110,
       "ids": [
-        "2.0007",
-        "7.0001"
+        "1.0006",
+        "1.0007",
+        "5.0001",
+        "A.0009",
+        "B.0009",
+        "C.0009"
+      ]
+    },
+    {
+      "product": 86,
+      "ids": [
+        "1.0008",
+        "2.0008",
+        "5.0001",
+        "5.0007",
+        "A.0010",
+        "B.0010",
+        "C.0010",
+        "G.0010"
       ]
     }
   ]

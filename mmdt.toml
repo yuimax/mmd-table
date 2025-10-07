@@ -214,6 +214,15 @@ creator	= "yuima"
 nico	= "td95636"
 page	= "bowlroll/299134"
 
+[[item]]
+id	 	= "1.0008"	# おねーちゃんズ
+name	= "おねーちゃんズ"
+remark	= "-"
+creator	= "KEITEL"
+nico	= "im10881555"
+page	= "bowlroll/269833"
+
+
 
 # 2.xxxx = ステージ ####################
 
@@ -263,7 +272,7 @@ name	= "レンガ壁の部屋-01"
 remark	= "-"
 creator	= "ツチネコ"
 nico	= "im6880180"
-page	= "bowlroll/142449 "
+page	= "bowlroll/142449"
 
 [[item]]
 id	 	= "2.0007"	# 撮影用背景ステージ
@@ -272,6 +281,15 @@ remark	= "-"
 creator	= "悟遠塔也"
 nico	= "im5775513"
 page	= "[悟が遠いロダ](http://ux.getuploader.com/Goto_Toya/download/30/撮影用背景2_v100.zip)"
+
+[[item]]
+id	 	= "2.0008"	# Kawaiiルーム
+name	= "Kawaiiルーム"
+remark	= "-"
+creator	= "ムムム"
+nico	= "im10756683"
+page	= "bowlroll/255589"
+
 
 # 3.xxxx = スカイドーム ################
 
@@ -683,18 +701,40 @@ nico	= "sm19290621"
 page	= "bowlroll/10375"
 
 
-# uses 110 #############################
+# 楽曲 ザムザ #########################
 
-[[uses]]
-product = 110
-ids = [
-	"1.0006",	# VRoid C子
-	"1.0007",	# VRoid D子
-	"5.0001",	# AdultShader.fx
-	"A.0009",	# 楽曲 少女未遂
-	"B.0009",	# 振付 少女未遂
-	"C.0009",	# モーション 少女未遂
-]
+[[item]]
+id	 	= "A.0010"	# 楽曲 ザムザ
+name	= "ザムザ"
+remark	= "-"
+creator	= "てにをは"
+nico	= "sm42047041"
+page	= "-"
+
+[[item]]
+id	 	= "B.0010"	# 振付 ザムザ
+name	= "ザムザ"
+remark	= "-"
+creator	= "ひかる"
+nico	= "sm43318585"
+page	= "[本人の踊ってみた](https://nico.ms/sm43453626)"
+
+[[item]]
+id	 	= "C.0010"	# モーション ザムザ
+name	= "ザムザ"
+remark	= "-"
+creator	= "mobiusP"
+nico	= "sm43034568"
+page	= "bowlroll/309776"
+
+[[item]]
+id	 	= "G.0010"	# カメラ ザムザ
+name	= "ザムザ"
+remark	= "-"
+creator	= "水瀬ミナ"
+nico	= "sm43039607"
+page	= "bowlroll/309833"
+
 
 # uses 33 ##############################
 
@@ -805,6 +845,15 @@ ids = [
 	"G.0001",	# カメラ 唱
 ]
 
+# uses 107 #############################
+
+[[uses]]
+product = 107
+ids = [
+	"2.0007",	# 撮影用背景ステージ
+	"7.0001",	# 普通の撮影ポーズ2
+]
+
 # uses 106 #############################
 
 [[uses]]
@@ -830,11 +879,30 @@ ids = [
 	"T.0005",	# BowlRoll
 ]
 
-# uses 107 #############################
+# uses 110 #############################
 
 [[uses]]
-product = 107
+product = 110
 ids = [
-	"2.0007",	# 撮影用背景ステージ
-	"7.0001",	# 普通の撮影ポーズ2
+	"1.0006",	# VRoid C子
+	"1.0007",	# VRoid D子
+	"5.0001",	# AdultShader.fx
+	"A.0009",	# 楽曲 少女未遂
+	"B.0009",	# 振付 少女未遂
+	"C.0009",	# モーション 少女未遂
+]
+
+# uses 86 #############################
+
+[[uses]]
+product = 86
+ids = [
+	"1.0008",	# おねーちゃんズ
+	"2.0008",	# Kawaiiルーム
+	"5.0001",	# AdultShader.fx
+	"5.0007",	# 被写界深度
+	"A.0010",	# 楽曲 ザムザ
+	"B.0010",	# 振付 ザムザ
+	"C.0010",	# モーション ザムザ
+	"G.0010",	# カメラ ザムザ
 ]
