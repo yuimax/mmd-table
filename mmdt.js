@@ -586,7 +586,7 @@ const db = {
       "remark": "-",
       "creator": "ひかる",
       "nico": "sm43318585",
-      "page": "[本人の踊ってみた](https://nico.ms/sm43453626)"
+      "page": "[踊ってみたもあるよ](https://nico.ms/sm43453626)"
     },
     "C.0010": {
       "name": "ザムザ",
