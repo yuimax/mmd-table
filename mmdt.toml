@@ -230,6 +230,22 @@ creator	= "KEITEL"
 nico	= "im10881555"
 page	= "bowlroll/269833"
 
+[[item]]
+id	 	= "1.0010"	# つねかわ式4頭身ミク
+name	= "4頭身ミク"
+remark	= ""
+creator	= "つねかわ"
+nico	= "im11151674"
+page	= "bowlroll/291050 "
+
+[[item]]
+id	 	= "1.0011"	# ムーレア
+name	= "ムーレア"
+remark	= "ムーミン+レア様"
+creator	= "マシシ"
+nico	= "im4005751"
+page	= "bowlroll/291050 "
+
 
 # 2.xxxx = ステージ ####################
 
@@ -297,6 +313,14 @@ creator	= "ムムム"
 nico	= "im10756683"
 page	= "bowlroll/255589"
 
+[[item]]
+id	 	= "2.0009"	# ガレキ町1.4
+name	= "ガレキ町1.4"
+remark	= "-"
+creator	= "kelorin jo (BTA)"
+nico	= "im4912949"
+page	= "bowlroll/71534"
+
 
 # 3.xxxx = スカイドーム ################
 
@@ -315,6 +339,14 @@ remark	= "お年始skyset.zip に含まれる"
 creator	= "銀匙"
 nico	= "im5653835"
 page	= "[銀匙倉庫０１](https://ux.getuploader.com/silverspoon_01/download/14)"
+
+[[item]]
+id	 	= "3.0003"	# 赤い夜 R6
+name	= "赤い夜 R6"
+remark	= "-"
+creator	= "怪獣対若大将P"
+nico	= "im4708471"
+page	= "bowlroll/97078"
 
 # 4.xxxx = アクセサリ ##################
 
@@ -743,19 +775,66 @@ nico	= "sm43039607"
 page	= "bowlroll/309833"
 
 
-# uses 86 #############################
+# 楽曲 PASSION #########################
+
+[[item]]
+id	 	= "A.0011"	# 楽曲 PASSION
+name	= "PASSION"
+remark	= "-"
+creator	= "GARNiDELiA"
+nico	= "sm35446096"
+page	= "-"
+
+[[item]]
+id	 	= "B.0011"	# 振付 PASSION
+name	= "PASSION"
+remark	= "-"
+creator	= "みうめ"
+nico	= "sm35443892"
+page	= "-"
+
+[[item]]
+id	 	= "C.0011"	# モーション PASSION
+name	= "PASSION"
+remark	= "-"
+creator	= "永遠の１"
+nico	= "sm43034568"
+page	= "bowlroll/210322"
+
+[[item]]
+id	 	= "G.0011"	# カメラ PASSION
+name	= "PASSION"
+remark	= "-"
+creator	= "ノン"
+nico	= "im9231038"
+page	= "モーションに同梱"
+
+[[item]]
+id	 	= "F.0011"	# リップ表情 PASSION
+name	= "PASSION"
+remark	= "-"
+creator	= "ノン"
+nico	= "im9231038"
+page	= "モーションに同梱"
+
+
+
+# uses 72 #############################
 
 [[uses]]
-product = 86
+product = 72
 ids = [
-	"1.0009",	# 衣川光莉（おねーちゃん5号）
-	"2.0008",	# Kawaiiルーム
+	"1.0010",	# つねかわ式4頭身ミク
+	"1.0011",	# ムーレア
+	"2.0009",	# ガレキ町1.4
+	"3.0003",	# 赤い夜 R6
 	"5.0001",	# AdultShader.fx
-	"5.0007",	# 被写界深度
-	"A.0010",	# 楽曲 ザムザ
-	"B.0010",	# 振付 ザムザ
-	"C.0010",	# モーション ザムザ
-	"G.0010",	# カメラ ザムザ
+	"5.0003",	# Color.fx
+	"A.0011",	# 楽曲 PASSION
+	"B.0011",	# 振付 PASSION
+	"C.0011",	# モーション PASSION
+	"F.0011",	# リップ表情 PASSION
+	"G.0011",	# カメラ PASSION
 ]
 
 # uses 33 ##############################
@@ -810,6 +889,21 @@ ids = [
 	"B.0007",	# 振付 Lamb. その2
 	"C.0006",	# モーション Lamb.
 	"G.0006",	# カメラ Lamb.
+]
+
+# uses 86 #############################
+
+[[uses]]
+product = 86
+ids = [
+	"1.0009",	# 衣川光莉（おねーちゃん5号）
+	"2.0008",	# Kawaiiルーム
+	"5.0001",	# AdultShader.fx
+	"5.0007",	# 被写界深度
+	"A.0010",	# 楽曲 ザムザ
+	"B.0010",	# 振付 ザムザ
+	"C.0010",	# モーション ザムザ
+	"G.0010",	# カメラ ザムザ
 ]
 
 # uses 102 #############################

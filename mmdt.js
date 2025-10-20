@@ -189,6 +189,20 @@ const db = {
       "nico": "im10881555",
       "page": "bowlroll/269833"
     },
+    "1.0010": {
+      "name": "4頭身ミク",
+      "remark": "",
+      "creator": "つねかわ",
+      "nico": "im11151674",
+      "page": "bowlroll/291050 "
+    },
+    "1.0011": {
+      "name": "ムーレア",
+      "remark": "ムーミン+レア様",
+      "creator": "マシシ",
+      "nico": "im4005751",
+      "page": "bowlroll/291050 "
+    },
     "2.0001": {
       "name": "絵画の洋館 廃墟版",
       "remark": "-",
@@ -245,6 +259,13 @@ const db = {
       "nico": "im10756683",
       "page": "bowlroll/255589"
     },
+    "2.0009": {
+      "name": "ガレキ町1.4",
+      "remark": "-",
+      "creator": "kelorin jo (BTA)",
+      "nico": "im4912949",
+      "page": "bowlroll/71534"
+    },
     "3.0001": {
       "name": "桜の公園 NN8",
       "remark": "-",
@@ -258,6 +279,13 @@ const db = {
       "creator": "銀匙",
       "nico": "im5653835",
       "page": "[銀匙倉庫０１](https://ux.getuploader.com/silverspoon_01/download/14)"
+    },
+    "3.0003": {
+      "name": "赤い夜 R6",
+      "remark": "-",
+      "creator": "怪獣対若大将P",
+      "nico": "im4708471",
+      "page": "bowlroll/97078"
     },
     "4.0001": {
       "name": "コウモリパーティクル",
@@ -601,20 +629,58 @@ const db = {
       "creator": "水瀬ミナ",
       "nico": "sm43039607",
       "page": "bowlroll/309833"
+    },
+    "A.0011": {
+      "name": "PASSION",
+      "remark": "-",
+      "creator": "GARNiDELiA",
+      "nico": "sm35446096",
+      "page": "-"
+    },
+    "B.0011": {
+      "name": "PASSION",
+      "remark": "-",
+      "creator": "みうめ",
+      "nico": "sm35443892",
+      "page": "-"
+    },
+    "C.0011": {
+      "name": "PASSION",
+      "remark": "-",
+      "creator": "永遠の１",
+      "nico": "sm43034568",
+      "page": "bowlroll/210322"
+    },
+    "G.0011": {
+      "name": "PASSION",
+      "remark": "-",
+      "creator": "ノン",
+      "nico": "im9231038",
+      "page": "モーションに同梱"
+    },
+    "F.0011": {
+      "name": "PASSION",
+      "remark": "-",
+      "creator": "ノン",
+      "nico": "im9231038",
+      "page": "モーションに同梱"
     }
   },
   "uses": [
     {
-      "product": 86,
+      "product": 72,
       "ids": [
-        "1.0009",
-        "2.0008",
+        "1.0010",
+        "1.0011",
+        "2.0009",
+        "3.0003",
         "5.0001",
-        "5.0007",
-        "A.0010",
-        "B.0010",
-        "C.0010",
-        "G.0010"
+        "5.0003",
+        "A.0011",
+        "B.0011",
+        "C.0011",
+        "F.0011",
+        "G.0011"
       ]
     },
     {
@@ -657,6 +723,19 @@ const db = {
         "B.0007",
         "C.0006",
         "G.0006"
+      ]
+    },
+    {
+      "product": 86,
+      "ids": [
+        "1.0009",
+        "2.0008",
+        "5.0001",
+        "5.0007",
+        "A.0010",
+        "B.0010",
+        "C.0010",
+        "G.0010"
       ]
     },
     {
